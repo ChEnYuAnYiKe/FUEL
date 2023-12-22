@@ -44,6 +44,7 @@
 #----------------------------------
 cmake_minimum_required(VERSION 2.8.3)
 project(so3_control)
+set(CMAKE_CXX_STANDARD 14)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -59,7 +60,6 @@ find_package(catkin REQUIRED COMPONENTS
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(cmake_utils)
-
+set(CMAKE_CXX_STANDARD 14)
 find_package(catkin REQUIRED COMPONENTS roscpp)
 
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake)

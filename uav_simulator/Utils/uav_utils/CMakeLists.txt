@@ -3,7 +3,7 @@ project(uav_utils)
 
 ## Turn on verbose output
 set(CMAKE_VERBOSE_MAKEFILE "true")
-
+set(CMAKE_CXX_STANDARD 14)
 ## Enable C++11
 include(CheckCXXCompilerFlag)
 CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
