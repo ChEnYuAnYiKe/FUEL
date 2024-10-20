@@ -1,3 +1,4 @@
 fuel_planner/.vscode
 *.vscode/
 *.clang-format
+fuel_planner/utils/lkh_tsp_solver/resource

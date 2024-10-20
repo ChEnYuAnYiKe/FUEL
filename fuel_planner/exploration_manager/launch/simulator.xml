@@ -19,7 +19,7 @@
   <!-- map generation 1-->
   <!-- Change office.pcd to specify the exploration environment -->
   <!-- We provide office2.pcd, office3.pcd and pillar.pcd in this repo -->
-  <!--node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/office3.pcd"/ -->    
+  <node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/office3.pcd"/>
 
   <!-- map generation 2-->
   <!-- <node pkg ="map_generator" name ="random_forest" type ="random_forest" output = "screen">    
@@ -49,8 +49,8 @@
     <param name="sensing/rate"   value="10.0"/>        
   </node> -->
 
-  <!-- <node pkg ="traj_utils" name ="process_msg" type ="process_msg" output = "screen">    
-  </node> -->
+  <node pkg ="traj_utils" name ="process_msg" type ="process_msg" output = "screen">    
+  </node>
 
   <node pkg="so3_quadrotor_simulator" type="quadrotor_simulator_so3" name="quadrotor_simulator_so3" output="screen">
         <param name="rate/odom" value="200.0"/>
